@@ -22,6 +22,6 @@ public class OrderService {
     }
 
     public String orderStatus() {
-        return "READY";
+        return "READY_FOR_PACKING";
     }
 }
