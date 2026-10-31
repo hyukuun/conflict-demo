@@ -4,7 +4,7 @@ package demo;
 public class AuditService {
     public String event(String orderId) {
         if (orderId == null) throw new IllegalArgumentException("missing order");
-        return "ORDER:" + orderId;
+        return "CHECKOUT:" + orderId;
     }
 
     public String category() {
