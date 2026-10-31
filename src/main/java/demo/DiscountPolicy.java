@@ -3,6 +3,6 @@ package demo;
 public class DiscountPolicy {
     public int discount(int subtotal) {
         if (subtotal < 0) throw new IllegalArgumentException("negative subtotal");
-        return subtotal * 10 / 100;
+        return subtotal * 15 / 100;
     }
 }
