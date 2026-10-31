@@ -5,7 +5,7 @@ public class OrderService {
 
     public int shippingFee(int subtotal) {
         if (subtotal < 0) throw new IllegalArgumentException("negative subtotal");
-        return subtotal >= 100000 ? 0 : 3000;
+        return subtotal >= 100000 ? 0 : 4000;
     }
 
     public int discountedSubtotal(int subtotal) {
